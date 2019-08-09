@@ -1,0 +1,36 @@
+#bruce {
+    display: none;
+}
+
+@media all and (max-width: 1690px) { 
+    .container {
+        font-family: 'Crimson Text', serif;
+        font-size: 70;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+}
+
+@media all and (max-width: 1280px) { 
+    .container {
+        font-size: 56;
+    }
+}
+
+@media all and (max-width: 980px) { 
+    .container {
+        font-size: 54;
+    }
+}
+
+@media all and (max-width: 736px) { 
+    .container {
+        font-size: 0;
+        margin: 0;
+    }
+    #bruce {
+        height: 100%;
+        display: block;
+    }
+}
